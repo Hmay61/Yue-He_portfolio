@@ -1,0 +1,84 @@
+/*navbar*/
+
+#navbarcss {
+    background-color:#B3B3D7;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: green;
+}
+
+/*LinkPart about*/
+
+#about {
+  margin-top:60px;
+  background-color:#F5F6CE;
+  text-align:center;
+  color:green;
+}
+#about h3 {
+  color:#8ADA9A;
+}
+
+.linkPart img {
+  height:250px;
+  weight:250px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+/*portfolio part*/
+.portfolio_img{
+  height:50px;
+  weight:50px;
+}
+
+
+.panel_img {
+  height:350px;
+  weight:350px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.panel_img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#portfolio h2 {
+  color:green;
+}
+#portfolio h3 {
+  color:#FEC180;
+}
+
+/*contact*/
+#contact h2 {
+  color:#8ADA9A;
+}
+#contact label {
+  color:#FEC180;
+}
+/*footer*/
+#footer {
+  background-color: #50B374;
+  text-align: center;
+}
+
+#footer button {
+  border-radius: 25px;
+}
+
+
+/*hr*/
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(242, 252, 173,0.2), rgba(102, 219, 172, 0.75), rgba(242, 252, 173,0.2));
+}
