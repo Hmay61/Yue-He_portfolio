@@ -2,16 +2,20 @@
   <head>
     <title>Yue He Portfolio Webpage</title>
     <!-- Latest compiled and minified CSS -->
+    <meta charset="utf-8">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="my.css">
+
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!--jquery infront of javasript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="my.js"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
-    <script src="my.js"></script>
     <!--inport fa icon-->
     <script src="https://use.fontawesome.com/ba9308e4ab.js"></script>
   </head>
@@ -70,7 +74,7 @@
     <!--portfolio one image-->
     <div class="row">
 
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xs-12">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
         <div class="panel panel-danger">
           <div class="panel-heading">
             <h4 class="panel-title">Website1</h4>
@@ -84,7 +88,7 @@
       </div><!--end of col-sm-4-->
 
       <!--portfolio two image-->
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xs-12">  
+      <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">  
         <div class="panel panel-success">
           <div class="panel-heading">
             <h4 class="panel-title">Website2</h4>
@@ -110,20 +114,21 @@
             <label class="col-form-label col-sm-1" for="name">Name:</label>
             <div class="col-sm-11">
               <input type="text" class="form-control" id="name" placeholder="Name">
+              <span class="msg" id="nameMsg"></span>
             </div>
           </div><!--end of form-group--> 
 
           <div class="form-group row">
-            <label class="col-form-label col-sm-1" for="email">Eamil:</label>
+            <label class="col-form-label col-sm-1" for="email">Email:</label>
             <div class="col-sm-11">
-              <input type="text" class="form-control" id="email" placeholder="Email">
+              <input type="text" class="form-control" id="email" placeholder="Email" ><span class="msg" id="emailMsg"></span>
             </div>
           </div>
 
           <div class="form-group row">
             <label class="col-form-label col-sm-1" for="message">Message:</label>
             <div class="col-sm-11">
-              <textarea class="form-control" id="message" placeholder="Message"></textarea>
+              <textarea class="form-control" id="message" placeholder="Message" ></textarea><span class="msg" id="textMsg"></span>
             </div>
           </div>
 
@@ -132,7 +137,6 @@
               <a href="#" class="btn btn-success btn-md pull-right"><span class="glyphicon glyphicon-send"></span> Send</a>
             </div>
           </div>
-        </form>
                
       </div><!--end of row-->
     </div><!--end of contact container-->
@@ -154,6 +158,6 @@
 
       </div><!--end of row-->
     </div> <!--end of container footer-->
-
+    
   </body>
 </html>
